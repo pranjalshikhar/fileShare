@@ -15,7 +15,7 @@ const emailForm = document.querySelector("#emailForm");
 
 const toast = document.querySelector(".toast");
 
-const baseURL = "https://fi1e--share.herokuapp.com";
+const baseURL = "https://file--share.herokuapp.com";
 const uploadURL = `${baseURL}/api/files`;
 const emailURL = `${baseURL}/api/files/send`;
 
@@ -171,7 +171,6 @@ const showToast = (msg) => {
     toast.classList.remove("show");
   }, 2000);
 };
-
 
 
 
